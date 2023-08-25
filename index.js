@@ -64,6 +64,10 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/test', (req,res)=>{
     res.status(200).send("Server is working - 11ghhg");
 })
+app.get('/test', (req,res)=>{
+    res.status(200).json({message : "Server is working - 11ghhg"});
+})
+
 
 // API 1 - User Registration
 app.post('/register', upload.none(), async (req, res) => {
