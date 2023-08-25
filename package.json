@@ -1,0 +1,24 @@
+{
+  "name": "hp_backend",
+  "version": "1.0.0",
+  "description": "This is backend for Project HouseParty - an web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "pygau14",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.1",
+    "moment-timezone": "^0.5.43",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.5.2",
+    "mysql2-promise": "^0.1.4",
+    "path": "^0.12.7"
+  }
+}
