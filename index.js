@@ -64,7 +64,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/test', (req,res)=>{
     res.status(200).send("Server is working - 11ghhg");
 })
-app.get('/test', (req,res)=>{
+app.get('/test2', (req,res)=>{
     res.status(200).json({message : "Server is working - 11ghhg"});
 })
 
