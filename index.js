@@ -35,10 +35,10 @@ app.use(cors());
 
 //Create a connection pool to MySQL database
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'hnktscxf_hp_user',
-    password: 'hP+,vDwcj,W[',
-    database: 'hnktscxf_houseParty',
+    host: 'srv843.hstgr.io',
+    user: 'u176507776_hpTest_db_user',
+    password: 'Hp_test_db_123',
+    database: 'u176507776_hp_test_db',
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,
